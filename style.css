@@ -7,13 +7,7 @@
     box-sizing: border-box;
 }
 :root{
-    --color-pink: #feecea;
-    --color-white: #fff;
-    --color-black: #333;
-    --color-text-pink: #ff7882;
-    --color-heart: #F61F1F;
-    --color-bg-letter: #fff8e4;
-    --color-border: #DACCBF;
+    
 }
 html{
     height: 100%;
@@ -35,22 +29,14 @@ body {
     overflow: hidden;
     z-index: 1;
 }
-.flag__birthday{
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-200px);
-    animation: translateYFlag 1.5s 2s forwards;
+
 }
 @keyframes translateYFlag{
     to{
         transform: translateY(-10px);
     }
 }
-.flag__birthday .flag__left{
-    transform: rotate(-10deg) translate(-20px,30px);
-}
-.flag__birthday .flag__right{
-    transform: rotate(10deg) translate(20px,30px) scaleX(-1);
+
 }
 .content{
     width: 100%;
